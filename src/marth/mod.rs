@@ -119,6 +119,16 @@ unsafe fn marth_nair(fighter:&mut L2CAgentBase){
     }
 }
 
+//Back Air
+#[acmd_script(agent = "marth", script = "game_attackairb", category = ACMD_GAME)]
+unsafe fn marth_bair(fighter: &mut L2CAgentBase){
+    frame(fighter.lua_state_agent,3.0);
+    if macros::is_excute(fighter){
+        WorkModule::on_flag(fighter.module_accessor, *FIGHTER_STATUS_ATTACK_AIR_FLAG_ENABLE_LANDING);
+        macros::REVERSE_LR(fighter);
+    }
+}
+
 //Down Tilt
 #[acmd_script(agent = "marth", script = "game_attacklw3", category = ACMD_GAME)]
 unsafe fn marth_dtilt(fighter: &mut L2CAgentBase){
