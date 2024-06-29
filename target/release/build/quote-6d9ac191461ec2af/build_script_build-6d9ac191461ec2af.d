@@ -1,5 +1,0 @@
-C:\Users\corri\Desktop\2023 Ult Modding\skyline-rs-template\my_first_plugin\target\release\build\quote-6d9ac191461ec2af\build_script_build-6d9ac191461ec2af.exe: C:\Users\corri\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\build.rs
-
-C:\Users\corri\Desktop\2023 Ult Modding\skyline-rs-template\my_first_plugin\target\release\build\quote-6d9ac191461ec2af\build_script_build-6d9ac191461ec2af.d: C:\Users\corri\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\build.rs
-
-C:\Users\corri\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.23\build.rs:
